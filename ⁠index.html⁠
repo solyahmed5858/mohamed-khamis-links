@@ -1,0 +1,7 @@
+echo "# mohamed-khamis-links" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/solyahmed5858/mohamed-khamis-links.git
+git push -u origin main
