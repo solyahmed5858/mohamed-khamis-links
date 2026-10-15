@@ -1,7 +1,62 @@
-echo "# mohamed-khamis-links" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/solyahmed5858/mohamed-khamis-links.git
-git push -u origin main
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>روابط التواصل - محمد خميس</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 90%;
+            max-width: 400px;
+        }
+        h2 { margin-bottom: 20px; color: #333; }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 14px 0;
+            margin: 12px 0;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+        .tiktok { background-color: #000000; }
+        .facebook { background-color: #1877f2; }
+        .instapay { background-color: #5b2d82; }
+        .whatsapp { background-color: #25d366; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>اختر المنصة للتواصل</h2>
+        
+        <!-- رابط التيك توك -->
+        <a href="https://www.tiktok.com/@lifewomen1" class="btn tiktok" target="_blank">تيك توك (TikTok)</a>
+        
+        <!-- رابط الفيسبوك -->
+        <a href="https://www.facebook.com/share/1BtJwz3LCx/" class="btn facebook" target="_blank">فيسبوك (Facebook)</a>
+        
+        <!-- حساب إنستاباي -->
+        <div class="btn instapay">InstaPay: mohamed.abdallah7000@instapay</div>
+        
+        <!-- رابط الواتساب (يمكنك استبدال رقمك هنا لاحقاً) -->
+        <a href="https://wa.me/" class="btn whatsapp" target="_blank">واتساب (WhatsApp)</a>
+    </div>
+</body>
+</html>
